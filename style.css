@@ -135,4 +135,75 @@
     width: 768px;
     padding: 0px;
    }
- 
+  
+ @media screen and (max-width:480px) {
+     .container h2{
+        width: 480px;
+        font-size: 42px;
+     }
+
+     .row{
+        display: block;
+        width: 480px;
+     }
+
+     .col{
+        width: 480px;
+        padding-left: 0px;
+     }
+
+     .card{
+        width: 480px;
+        margin-top: 50px;
+     }
+     .text{
+        width: 85%;
+        margin: 0 auto;
+        font-size: 20px;
+     }
+     .text-center{
+        font-size: 50px;
+     }
+
+     .steps{
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0px;
+        margin-top: 50px;
+     }
+
+     .why-us{
+        background-color: #222222;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 0px;
+     }
+     .container{
+        width: 480px;
+     }
+
+     ul li h3, ul li p{
+        width: 85%;
+        margin: 0 auto;
+     }
+
+     .col-left img{
+        text-align: center;
+     }
+     .why-us .col-left{
+        width: 100%;
+        margin-bottom: 70px;
+        padding: 20px;
+     }
+
+     ul li{
+        width: 480px;
+     }
+
+
+  
+
+
+ }
+    
