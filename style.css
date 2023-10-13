@@ -127,3 +127,13 @@
  /************************************************
      SOLUZIONE RESPONSIVE
   ************************************************/
+  @media screen  and (max-width:768px) {
+   .container h2{
+      text-align: center;
+      width: 768px;
+   }
+
+   .container{
+    width: 768px;
+   }
+  }
